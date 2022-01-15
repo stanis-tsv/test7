@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>NAKITEL</title>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  </head>
+  <body>
+    <div class="top-bottom-bg">
+      <header class="header">
+        <div class="wrap">
+          <div class="menu-left">
+            <div class="dropdown">
+              <button class="dropbtn" onclick="myFunction()"> </button>
+              <div class="dropdown-content" id="myDropdown"><a href="#">на главную</a><a href="#">о компании</a><a href="#">каталог продукции</a><a href="#">акции</a><a href="#">гарантия</a><a href="#">контакты</a></div>
+            </div>
+          </div>
+          <div class="menu-right">
+            <div class="menu-cart"><a class="cart-s" href="#"></a>
+              <div class="cart-s-text"> <span class="goods">Товаров: 3</span><span class="sum">Сумма: 5.000 грн.</span></div>
+            </div>
+            <div class="lang"><a href="#">ru</a><a href="#">ua</a></div>
+            <div class="search">
+              <input type="search" value="Поиск" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"/>
+              <button type="submit"></button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="content">
+        <section class="contacts-logo">
+          <div class="wrap">
+            <div class="left-contacts"> 
+              <div class="login"><a class="log" href="#">Войти на сайт</a><a class="reg" href="#">Зарегистрироваться</a></div>
+              <div class="social">
+                <ul>
+                  <li class="tw"><a href="#"></a></li>
+                  <li class="vk"><a href="#"></a></li>
+                  <li class="fb"><a href="#"></a></li>
+                  <li class="rss"><a href="#"></a></li>
+                  <li class="gp"><a href="#"></a></li>
+                </ul>
+              </div><a class="cart-block" href="#">
+                <div class="cart-b"></div>
+                <div class="cart-b-text"> <span class="cart-text">Корзина</span><span class="goods">Товаров:&nbsp; <strong>3</strong></span><span class="sum">Сумма:&nbsp;<strong>5.000 грн.</strong></span></div></a>
+            </div>
+            <div class="center-logo"><img src="img/logo.png" alt="logo"/></div>
+            <div class="right-contacts contacts">
+              <div class="phone-number"><span>Телефон горячей линии</span><span class="number">+12(034) 567 89 10</span><span>(пн.- пт. с 9.00 до 18.00)</span></div><a class="call-master" href="#"><span class="call">ВЫЗВАТЬ</span><span class="master">ЗАМЕРЩИКА</span></a>
+            </div>
+          </div>
+        </section>
+        <section class="doors">
+          <div class="wrap"><a class="door1" href="#"><img src="img/door1.png" alt="door1"/>
+              <p>двери</p><span>шпонированные</span></a><a class="door2" href="#"><img src="img/door2.png" alt="door2"/>
+              <p>двери</p><span>экошпон</span></a><a class="door3" href="#"><img src="img/door3.png" alt="door3"/>
+              <p>двери</p><span>из массива</span></a><a class="door4" href="#"><img src="img/door4.png" alt="door4"/>
+              <p>двери</p><span>входные</span></a><a class="door5" href="#"><img src="img/door5.png" alt="door5"/>
+              <p>двери</p><span>спец назначения</span></a></div>
+        </section>
+        <section class="slider-bx">
+          <div class="wrap">
+            <div class="slider"><a href="#"><span>Дверь на дачу</span><img src="img/slider.png" alt="slide"/></a><a href="#"><span>Дверь на дачу</span><img src="img/slider.png" alt="slide"/></a><a href="#"><span>Дверь на дачу</span><img src="img/slider.png" alt="slide"/></a><a href="#"><span>Дверь на дачу</span><img src="img/slider.png" alt="slide"/></a></div>
+          </div>
+        </section>
+        <section class="about-us">
+          <div class="wrap">
+            <h2>О Компании</h2>
+            <div class="tabs-baners">
+              <div class="tab">
+                <button class="tablinks" onclick="openTab(event, 'tab1')">главная</button>
+                <button class="tablinks active" onclick="openTab(event, 'tab2')">о компании</button>
+                <button class="tablinks" onclick="openTab(event, 'tab3')">каталог продукции</button>
+                <button class="tablinks" onclick="openTab(event, 'tab4')">оплата / доставка</button>
+                <button class="tablinks" onclick="openTab(event, 'tab5')">акции</button>
+                <button class="tablinks" onclick="openTab(event, 'tab6')">гарантия</button>
+                <button class="tablinks" onclick="openTab(event, 'tab7')">контакты</button>
+              </div>
+              <div class="tabcontent" id="tab1">
+                <pre>      Повседневная практика показывает, что постоянный количественный рост и 
+сфера нашей активности позволяет оценить значение существенных финансовых 
+и административных условий. Значимость этих проблем настолько очевидна, что 
+консультация с широким активом представляет собой интересный эксперимент 
+проверки направлений прогрессивного развития.
+</pre>
+              </div>
+              <div class="tabcontent" id="tab2">
+                <pre>      Повседневная практика показывает, что постоянный количественный рост и 
+сфера нашей активности позволяет оценить значение существенных финансовых 
+и административных условий. Значимость этих проблем настолько очевидна, что 
+консультация с широким активом представляет собой интересный эксперимент 
+проверки направлений прогрессивного развития.
+
+      Таким образом сложившаяся структура организации требуют определения и 
+уточнения направлений прогрессивного развития. С другой стороны сложившаяся 
+структура организации способствует подготовки и реализации системы обучения 
+кадров, соответствует насущным потребностям. Значимость этих проблем 
+настолько очевидна, что укрепление и развитие структуры влечет за собой 
+процесс внедрения и модернизации соответствующий условий активизации.
+
+      С другой стороны начало повседневной работы по формированию позиции 
+позволяет оценить значение дальнейших направлений развития. Идейные 
+соображения высшего порядка, а также реализация намеченных плановых 
+заданий влечет за собой процесс внедрения и модернизации позиций, 
+занимаемых участниками в отношении поставленных задач. С другой стороны 
+начало повседневной работы по формированию позиции представляет собой 
+интересный эксперимент проверки новых предложений. Равным образом рамки и 
+место обучения кадров в значительной степени обуславливает создание системы 
+обучения кадров, соответствует насущным потребностям.
+
+      Товарищи! начало повседневной работы по формированию позиции позволяет 
+выполнять важные задания по разработке систем массовогоу частия.</pre>
+              </div>
+              <div class="tabcontent" id="tab3">
+                <pre>      Повседневная практика показывает, что постоянный количественный рост и 
+сфера нашей активности позволяет оценить значение существенных финансовых 
+и административных условий. Значимость этих проблем настолько очевидна, что 
+консультация с широким активом представляет собой интересный эксперимент 
+проверки направлений прогрессивного развития.
+</pre>
+              </div>
+              <div class="tabcontent" id="tab4">
+                <pre>      Повседневная практика показывает, что постоянный количественный рост и 
+сфера нашей активности позволяет оценить значение существенных финансовых 
+и административных условий. Значимость этих проблем настолько очевидна</pre>
+              </div>
+              <div class="tabcontent" id="tab5">
+                <pre>      Повседневная практика показывает, что постоянный количественный рост и 
+сфера нашей активности позволяет оценить значение существенных финансовых 
+и административных условий. </pre>
+              </div>
+              <div class="tabcontent" id="tab6">
+                <pre>      Повседневная практика показывает, что постоянный количественный рост и 
+сфера нашей активности позволяет оценить значение существенных финансовых 
+и административных условий. Значимость этих проблем настолько очевидна, что 
+консультация с широким активом представляет собой интересный эксперимент 
+проверки направлений прогрессивного развития.
+
+     Повседневная практика показывает, что постоянный количественный рост и 
+сфера нашей активности позволяет оценить значение существенных финансовых 
+и административных условий. Значимость этих проблем настолько очевидна, что 
+консультация с широким активом представляет собой интересный эксперимент 
+проверки направлений прогрессивного развития.
+</pre>
+              </div>
+              <div class="tabcontent" id="tab7">
+                <pre>      Повседневная практика показывает, что постоянный количественный рост и 
+сфера нашей активности позволяет оценить значение существенных финансовых 
+и административных условий. Значимость этих проблем настолько очевидна, что 
+консультация с широким активом представляет собой интересный эксперимент 
+проверки направлений прогрессивного развития.
+
+     Повседневная практика показывает, что постоянный количественный рост и 
+сфера нашей активности позволяет оценить значение существенных финансовых 
+и административных условий. Значимость этих проблем настолько очевидна, что 
+консультация с широким активом представляет собой интересный эксперимент 
+проверки направлений прогрессивного развития.
+
+     Повседневная практика показывает, что постоянный количественный рост и 
+сфера нашей активности позволяет оценить значение существенных финансовых 
+и административных условий. Значимость этих проблем настолько очевидна, что 
+консультация с широким активом представляет собой интересный эксперимент 
+проверки направлений прогрессивного развития.
+
+     Повседневная практика показывает, что постоянный количественный рост и 
+сфера нашей активности позволяет оценить значение существенных финансовых 
+и административных условий. Значимость этих проблем настолько очевидна, что 
+консультация с широким активом представляет собой интересный эксперимент 
+проверки направлений прогрессивного развития.
+</pre>
+              </div>
+              <div class="baners">
+                <div class="baner-contacts contacts">
+                  <div class="phone-number"><span>Телефон горячей линии</span><span class="number">+12(034) 567 89 10</span><span>(пн.- пт. с 9.00 до 18.00)</span></div><a class="call-master" href="#"><span class="call">ВЫЗВАТЬ</span><span class="master">ЗАМЕРЩИКА</span></a>
+                </div>
+                <div class="baner"><a href="#"><img src="img/baner.png" alt="baner"/></a></div>
+                <div class="baner-contacts contacts">
+                  <div class="phone-number"><span>Телефон горячей линии</span><span class="number">+12(034) 567 89 10</span><span>(пн.- пт. с 9.00 до 18.00)</span></div><a class="call-master" href="#"><span class="call">ВЫЗВАТЬ</span><span class="master">ЗАМЕРЩИКА</span></a>
+                </div>
+                <div class="baner"><a href="#"><img src="img/baner.png" alt="baner"/></a></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <footer class="footer"> 
+        <div class="wrap"><span>Nakitel &copy;2014</span>
+          <ul>
+            <li><a href="#">Контакты </a></li>
+            <li><a href="#">Акции </a></li>
+            <li><a href="#">Каталог  </a></li>
+            <li><a href="#">Оплата / Доставка</a></li>
+            <li><a href="#">Гарантия</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
